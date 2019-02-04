@@ -1,7 +1,9 @@
 # ETH-star-notary-token
 
 ## ERC-721 Token Information
+
 Name: Twinkle
+
 Symbol: TWK
 
 ### Versions
