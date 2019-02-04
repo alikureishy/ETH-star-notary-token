@@ -18,17 +18,22 @@
     <br>
       <h1>Create a Star</h1>
       <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
+      <br><label for="starDec">Dec:</label><input type="text" id="starDec"></input>
+      <br><label for="starMag">Mag:</label><input type="text" id="starMag"></input>
+      <br><label for="starEnt">Ent:</label><input type="text" id="starEnt"></input>
+      <br><label for="starStory">Story:</label><input type="text" id="starStory"></input>
       <br><label for="starId">Star ID:</label><input type="text" id="starId"></input>
       <br><br><button id="createStar" onclick="App.createStar()">Create Star</button>
       <br>
+      <span id="status"></span>
       <hr>
       <br>
       <h1>Look up a Star</h1>
-      <br><label for="name">Star ID:</label><input type="text" id="lookid"></input>
+      <br><label for="name">Star ID:</label><input type="text" id="queryId"></input>
       <br><br><button onclick="App.lookUp()">Look Up a Star</button>
       <hr>
       <br>
-      <span id="status"></span>
+      <textarea id="queryResult" rows = "5" cols="100"></textarea>
       <br>
     <script src="index.js"></script>
   </body>
