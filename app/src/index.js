@@ -73,8 +73,6 @@ const App = {
         alert(error)
       }
     })
-    // let result = await lookUptokenIdToStarInfo(starId).send({ from: this.account });
-    // App.setQueryResult("[" + name + " / " + dec + " / " + mag + " / " + ent + " / " + story + "]");
   }
 
 };
